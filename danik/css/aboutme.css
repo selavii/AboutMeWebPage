@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+/* Hide scrollbar for Chrome, Safari, and Edge */
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.pill-nav a {
+    margin: 5px 0 0 5px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.pill-nav a:hover {
+    background-color: #232222;
+    color: white;
+    transition: 1s ease;
+
+}
+
+
+.bio-divider {
+    border: 0;
+    height: 1px;
+    background: black;
+    margin: 7px 5px;
+}
+
+
+.dropdowns {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.vertical-divider {
+    border: 0;
+    width: 1px;
+    background-color: black;
+    margin: 1px 4px ;
+}
+
+
+.motivations-personality {
+    display: flex;
+    flex-direction: column;
+}
+.Motivation {
+    flex: 0.8;
+    padding: 20px; /* Add padding as needed */
+}
+
+.dreptungi,
+.dreptungi2,
+.dreptungi3,
+.dreptungi4,
+.dreptungi5,
+.dreptungi6,
+.dreptungi7,
+.dreptungi8,
+.dreptungi9,
+.dreptungi10{
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px black solid;
+}
+
+.dreptungi:hover,
+.dreptungi2:hover,
+.dreptungi3:hover,
+.dreptungi4:hover,
+.dreptungi5:hover,
+.dreptungi6:hover,
+.dreptungi7:hover,
+.dreptungi8:hover,
+.dreptungi9:hover,
+.dreptungi10:hover{
+    transform: translateY(-2px);
+    transition: 1s ease;
+}
+.dreptungi {
+    background: linear-gradient(to right, pink 80%, grey 80%);
+}
+
+.dreptungi2 {
+    background: linear-gradient(to right, pink 20%, grey 20%);
+}
+
+.dreptungi3 {
+    background: linear-gradient(to right, pink 50%, grey 50%);
+}
+
+.dreptungi4 {
+    background: linear-gradient(to right, pink 70%, grey 70%);
+}
+
+.dreptungi5 {
+    background: linear-gradient(to right, pink 90%, grey 90%);
+}
+
+.vertical-divider {
+    width: 1px;
+}
+
+.Personality {
+    flex: 0.8;
+    padding: 20px;
+}
+
+
+.dreptungi6 {
+    background: linear-gradient(to right, pink 55%, grey 55%);
+}
+
+.dreptungi7 {
+    background: linear-gradient(to right, pink 95%, grey 95%);
+}
+
+.dreptungi8 {
+    background: linear-gradient(to right, pink 75%, grey 75%);
+}
+
+.dreptungi9 {
+    background: linear-gradient(to right, pink 80%, grey 80%);
+}
+
+.dreptungi10 {
+    background: linear-gradient(to right, pink 90%, grey 90%);
+}
+
+ .paragraf1 {
+     margin-left: 5px;
+     font-family: Bahnschrift, sans-serif;
+     font-size: 20px;
+     text-align: left;
+     margin-top: 10px;
+
+ }
+
+
+
+.Affiliations {
+    display: flex;
+    flex-direction: column;
+}
+
+.affiliation-images{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+
+.affiliation-image {
+    max-width: 125px;
+    max-height: 100px;
+    opacity: 0.5;
+    margin-left: 12px;
+}
+
+.affiliation-image:hover{
+    opacity: 1;
+    transition: 0.3s ease;
+    transform: translateY(1px);
+}
+.entirepart {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.partImage {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.MainImage {
+    max-width: 30%;
+    max-height: 20%;
+    top: 0;
+    left: 0;
+}
+
+
+.partImageInfo h2{
+    font-family: Bahnschrift, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.partImageInfo p{
+    margin-top: 0;
+    font-family: Bahnschrift, sans-serif;
+    font-size: 15px;
+}
+
+.Moldova {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.partImage-Divider{
+    border: 0;
+    height: 225px;
+    background: black;
+    margin: 15px 10px;
+    width: 1px;
+}
+
+
+.partImageInfo {
+    margin-left: 15px;
+}

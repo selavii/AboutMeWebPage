@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.pill-nav a {
+    margin: 5px 0 0 5px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.pill-nav a:hover {
+    background-color: #232222;
+    color: white;
+    transition: 1s ease;
+
+}
+
+
+.infoaboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    background-color: #ebebe9;
+    margin: 50px auto;
+    border-radius: 2px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.infoaboutme:hover {
+    transform: translateY(-2px);
+    transition: 0.1s ease;
+    background-color: whitesmoke;
+    border: 2px solid;
+}
+
+.container {
+    height: 235px;
+    width: 235px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container .aboutmephoto {
+    max-height: 100px;
+    max-width: 100px;
+    margin: auto;
+}
+
+.container .informationaboutdanik {
+    margin: 5px;
+    position: relative;
+}
+
+
+
+.container .informationaboutdanik h2 {
+    font-size: 15px;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.container .informationaboutdanik p {
+    font-size: 10px;
+    font-family: Bahnschrift, sans-serif;
+}
+
+.container .informationaboutdanik h2,
+.container .informationaboutdanik p {
+    margin: 5px 0;
+}
