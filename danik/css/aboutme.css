@@ -229,3 +229,28 @@ body::-webkit-scrollbar-track {
 .partImageInfo {
     margin-left: 15px;
 }
+
+.partDescription h2, .partDescription span{
+    font-family: Bahnschrift, sans-serif;
+    margin: 15px 5px;
+}
+
+#needsGoalsDropdown {
+    font-family: Bahnschrift, sans-serif;
+    border: none;
+}
+
+#painPointsDropdown {
+    font-family: Bahnschrift, sans-serif;
+    border: none;
+}
+
+.needsgoals label{
+    font-family: Bahnschrift, sans-serif;
+    margin-left: 5px;
+}
+
+.painPoints {
+    font-family: Bahnschrift, sans-serif;
+    margin-left: 5px;
+}
